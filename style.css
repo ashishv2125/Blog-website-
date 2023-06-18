@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container {
+    margin: 20px;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  .segment {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .sub-segment {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .news-feeds,
+  .upcoming-events,
+  .jobs {
+    margin-bottom: 20px;
+  }
+
+  .news-feeds h3,
+  .upcoming-events h3,
+  .jobs h3 {
+    margin-bottom: 10px;
+  }
+
+  .news-feeds ul,
+  .upcoming-events ul,
+  .jobs ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .news-feeds li,
+  .upcoming-events li,
+  .jobs li {
+    margin-bottom: 5px;
+  }
+
+  footer{
+    background-color: #333;
+    color: #fff;
+    padding: 14px;
+    text-align: center;
+    margin-bottom: 0%;
+  }
